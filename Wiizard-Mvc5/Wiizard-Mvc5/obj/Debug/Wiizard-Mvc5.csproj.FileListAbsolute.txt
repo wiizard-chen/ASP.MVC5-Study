@@ -76,3 +76,10 @@ E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\zh-Hans\System.Web.Mvc.re
 E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\obj\Debug\Wiizard-Mvc5.csprojResolveAssemblyReference.cache
 E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\obj\Debug\Wiizard-Mvc5.dll
 E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\obj\Debug\Wiizard-Mvc5.pdb
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\Ninject.dll
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\Ninject.Web.Common.dll
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\Ninject.Web.Mvc.dll
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\WebActivatorEx.dll
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\Ninject.xml
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\Ninject.Web.Common.xml
+E:\Github\ASP.MVC5-Study\Wiizard-Mvc5\Wiizard-Mvc5\bin\Ninject.Web.Mvc.xml
