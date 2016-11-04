@@ -19,7 +19,7 @@ namespace EssentialTools.Controllers
             new Product {Name = "corner flag", Category="watersports",Price=34.95M }
         };
 
-        public HomeController(IValueCalculator calcParam)
+        public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
         {
             calc = calcParam;
         }

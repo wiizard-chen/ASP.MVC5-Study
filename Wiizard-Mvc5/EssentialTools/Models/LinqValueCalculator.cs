@@ -5,11 +5,21 @@ using System.Web;
 
 namespace EssentialTools.Models
 {
-    public class LinqValueCalculator :IValueCalculator
+    public class LinqValueCalculator : IValueCalculator
     {
-        public decimal  ValueProducts(IEnumerable<Product> product)
+        private IDiscountHelper discounter;
+        private static int counter = 0;
+
+
+        public LinqValueCalculator(IDiscountHelper discountParam)
         {
-            return product.Sum(p => p.Price);
+            discounter = discountParam;
+            System.Diagnostics.Debug.WriteLine(string.Format("Instance {0} created", ++counter));
+        }
+
+        public decimal ValueProducts(IEnumerable<Product> product)
+        {
+            return discounter.ApplyDiscount(product.Sum(p => p.Price));
         }
     }
 }
