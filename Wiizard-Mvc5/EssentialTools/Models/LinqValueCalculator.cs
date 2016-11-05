@@ -17,9 +17,9 @@ namespace EssentialTools.Models
             System.Diagnostics.Debug.WriteLine(string.Format("Instance {0} created", ++counter));
         }
 
-        public decimal ValueProducts(IEnumerable<Product> product)
+        public decimal ValueProducts(IEnumerable<Product> products)
         {
-            return discounter.ApplyDiscount(product.Sum(p => p.Price));
+            return discounter.ApplyDiscount(products.Sum(p => p.Price));
         }
     }
 }
